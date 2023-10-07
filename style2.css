@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.kabinet {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(rgb(7, 238, 238));
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.left img {
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+}
+
+.right {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.copy {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.copy .uc {
+  width: 100%;
+  height: 250px;
+}
+
+.copy .bir {
+  width: 90%;
+  height: 100px;
+}
+
+.copy .bir p {
+  font-size: 14px;
+  color: #b9b9b9;
+  margin-top: 5px;
+}
+
+.copy .dord {
+  margin-top: -3%;
+}
+
+.basliq {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.basliq h2 {
+  color: black;
+}
+
+.basliq h2 span {
+  color: rgb(234, 173, 7);
+  font-size: 18px;
+}
+
+.basliq a {
+  color: gray;
+  margin-top: 5px;
+}
+
+.basliq a:hover {
+  color: #f9d41e !important;
+  text-decoration: underline;
+}
+
+.giris {
+  width: 50%;
+  height: 400px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.bir {
+  width: 100%;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.iki {
+  width: 100%;
+  height: 80px;
+  padding: 12px;
+}
+
+.ferdi {
+  width: 47%;
+  height: 60px;
+  color: black;
+  background: #f9d41e;
+  border: none;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.korporativ {
+  width: 47%;
+  height: 60px;
+  color: black;
+  background-color: gainsboro;
+  border: none;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.uc {
+  width: 100%;
+  height: 180px;
+  padding: 12px;
+}
+
+.uc input {
+  width: 95%;
+  height: 50px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.dord {
+  width: 100%;
+  height: 25px;
+}
+
+.dord p {
+  font-size: 13px;
+  margin-left: 12px;
+  color: gray;
+}
+
+.dord a:hover {
+  text-decoration: underline;
+}
+
+.bes {
+  width: 100%;
+  height: 65px;
+  padding: 5px;
+}
+.daxil {
+  width: 47%;
+  height: 50px;
+  background: #f9d41e !important;
+  margin-left: 6px;
+  color: black;
+  border: none;
+}
+
+.bes a {
+  font-size: 12px;
+  margin-left: 20%;
+  color: gray;
+}
+
+.bes a:hover {
+  text-decoration: underline;
+  color: #f9d41e !important;
+}
+
+.dark {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(180, 84, 84, 0.146);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.forgetpass {
+  width: 26%;
+  height: 250px;
+  background-color: #f9d41e;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  display: none;
+}
+
+.part1 {
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.part1 i {
+  position: absolute;
+  font-size: 20px;
+  top: 16%;
+  right: 2%;
+}
+
+.part2 {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.ferdi1 {
+  width: 27%;
+  height: 40px;
+  border: none;
+  color: black;
+  background-color: #f9d41e;
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  margin-left: 22%;
+}
+
+.korporativ1 {
+  width: 27%;
+  height: 40px;
+  border: none;
+  color: black;
+  font-size: 13px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.part3 {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+
+.part3 h4 {
+  margin-left: 20px;
+}
+
+.part4 {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.part4 input {
+  width: 80%;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.part5 {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+}
+
+.passfor {
+  width: 27%;
+  height: 40px;
+  background: #ab8d07;
+  border: none;
+  outline: none;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.passfor:hover {
+  background: #5a4a05;
+}
+
+@media (max-width: 768px) {
+  .kabinet {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+  }
+  .left {
+    width: 100%;
+    padding: 0%;
+    display: none;
+  }
+  .right {
+    width: 100%;
+    padding: 0%;
+    margin-right: 0%;
+  }
+
+  .basliq {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .basliq h2 {
+    margin-left: 8%;
+  }
+
+  .basliq a {
+    margin-right: 8%;
+  }
+
+  .giris {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 0%;
+  }
+
+  .part2 {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+  }
+  .ferdi {
+    width: 45%;
+    height: 50px;
+    background-color: #f9d41e;
+    border: none;
+    color: white;
+    font-size: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+  }
+  .korporativ {
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+  }
+  .uc {
+    width: 100%;
+    height: 140px;
+    padding: 2px;
+  }
+
+  .uc input {
+    width: 95%;
+    height: 50px;
+    padding: 5px;
+    margin-top: 5%;
+    margin-left: 2.5%;
+  }
+
+  .dord {
+    margin-top: 40px;
+  }
+  .dord p {
+    font-size: 13px;
+    margin-left: 12px;
+    margin-top: 15px;
+    color: gray;
+  }
+  .bes a {
+    font-size: 10px;
+    margin-left: 10%;
+    color: gray;
+  }
+  .part1 i {
+    position: absolute;
+    font-size: 12px;
+    top: 12%;
+    right: 4%;
+  }
+  .part1 {
+    width: 100%;
+    height: 30px;
+    position: relative;
+  }
+
+  .ferdi1 {
+    width: 40%;
+    height: 30px;
+    background: black !important;
+    border: none;
+    color: #f9d41e;
+    font-size: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-left: 12%;
+  }
+
+  .korporativ1 {
+    width: 40%;
+    height: 30px;
+    background: #f9d41e !important;
+    border: none;
+    color: black;
+    font-size: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+  }
+  .forgetpass {
+    width: 100%;
+    height: 300px;
+    background-color: #f9d41e;
+    position: absolute;
+    top: 33%;
+    left: 0%;
+    display: none;
+  }
+  .part3 {
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+  }
+
+  .part3 h4 {
+    margin-left: 40px;
+    font-size: 15px;
+  }
+
+  .part4 {
+    width: 100%;
+    height: 50px;
+    padding: 1px;
+  }
+
+  .part4 input {
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+  }
+  .part5 {
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  .passfor {
+    width: 30%;
+    height: 42px;
+    background: #ab8d07;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 45px;
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .uc input {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,724 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Jost", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.up-menu {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 100%;
+  height: 60px;
+}
+
+.center-menu {
+  width: 32%;
+  height: 60px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.center-menu ul li {
+  display: inline-block;
+  padding: 10px;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.center-menu ul li a {
+  color: white;
+  font-size: 17px;
+}
+.center-menu ul li a:hover {
+  color: rgb(238, 180, 20);
+}
+#one {
+  color: rgb(238, 180, 20);
+  font-size: 17px;
+}
+
+.right-menu {
+  width: 21%;
+  height: 60px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.right-menu ul li {
+  display: inline-block;
+  padding: 5px;
+  line-height: 40px;
+}
+
+.right-menu ul li a {
+  color: rgb(238, 180, 20);
+  font-size: 20px;
+}
+
+.right-menu ul li a:hover {
+  color: rgba(52, 52, 212, 0.909);
+  text-decoration: underline;
+}
+.icon {
+  width: 12%;
+  height: 60px;
+  padding: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.icon i {
+  margin-right: 8px;
+  font-size: 22px;
+  color: white;
+}
+
+.icon i:hover {
+  color: rgb(238, 180, 20);
+}
+.list {
+  position: relative;
+}
+
+.list-menu {
+  width: 14%;
+  height: 100vh;
+  background-color: black;
+  position: absolute;
+  top: 99%;
+  right: 0;
+  display: none;
+}
+
+.number1 {
+  width: 100%;
+  height: 50px;
+  margin-top: 10%;
+  display: flex;
+  padding: 10px;
+}
+.number1 h2 {
+  margin-left: 5px;
+  cursor: pointer;
+  color: #fcce0b;
+}
+
+.number1 a {
+  font-size: 18px;
+  color: white;
+}
+
+.number1 a:hover {
+  color: #fcce0b;
+}
+.programs {
+  width: 100%;
+  height: 200px;
+  margin-top: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+.programs h3 {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+}
+
+.programs img {
+  width: 90%;
+  margin-top: 5%;
+}
+
+.taxi-menu {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(234, 173, 7);
+  display: flex;
+  padding-top: 120px;
+}
+.part1 {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+}
+
+.font-header {
+  width: 100%;
+  height: 300px;
+}
+
+.font-header h1 {
+  font-size: 55px;
+  padding: 20px;
+}
+
+.font-header img {
+  width: 30%;
+  padding: 20px;
+}
+
+.icons {
+  width: 100%;
+  height: 300px;
+}
+
+.icons img {
+  width: 20%;
+  margin-top: 10%;
+}
+
+.part2 {
+  width: 100%;
+  height: 600px;
+}
+
+.tel-menu {
+  width: 40%;
+  height: 550px;
+  text-align: center;
+  position: relative;
+  margin-left: 165px;
+  animation-duration: 3s;
+  animation-name: animasiya;
+}
+
+@keyframes animasiya {
+  100% {
+    margin-left: 165px;
+  }
+  0% {
+    margin-left: 400px;
+  }
+}
+
+.tel-menu img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+  border: black;
+}
+
+.tel-menu video {
+  position: absolute;
+  width: 94%;
+  height: 95%;
+  object-fit: cover;
+  top: 13px;
+  left: 9px;
+  border-radius: 8%;
+}
+
+.abune {
+  width: 38%;
+  height: 250px;
+  background-color: white;
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  display: none;
+}
+
+.abune-header {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.abune-header i {
+  position: absolute;
+  right: 2%;
+  top: 15%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.abune input {
+  width: 70%;
+  height: 40px;
+  margin-top: 2%;
+}
+.subs {
+  width: 75%;
+  height: 50px;
+  border-radius: 6%;
+  border: none;
+  background-color: gold;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.duyme {
+  padding: 20px;
+}
+
+.list {
+  display: inline-block;
+}
+
+.filter {
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  padding: 45px;
+}
+
+.filter ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.items {
+  width: 100%;
+  height: 350px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.items img {
+  width: 36%;
+}
+
+.taxi-tarif-end {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(174, 166, 166);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.tarif1 {
+  width: 15%;
+  height: 100px;
+  background-color: rgb(174, 166, 166);
+  border: 1px solid black;
+  margin: 25px;
+}
+
+.tarif2 {
+  width: 15%;
+  height: 100px;
+  background-color: rgb(174, 166, 166);
+  border: 1px solid black;
+  margin: 25px;
+}
+.tarif3 {
+  width: 15%;
+  height: 100px;
+  background-color: rgb(174, 166, 166);
+  border: 1px solid black;
+  margin: 25px;
+}
+
+.tarif1 h2 img {
+  width: 8%;
+}
+
+.tarif1 p {
+  padding: 3%;
+}
+
+.tarif2 h2 img {
+  width: 8%;
+}
+
+.tarif2 p {
+  padding: 3%;
+}
+
+.tarif3 h2 img {
+  width: 8%;
+}
+.tarif3 p {
+  padding: 3%;
+}
+
+.taxi-middle {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(174, 166, 166);
+}
+
+.taxi-middle h1 {
+  padding: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  opacity: 0.8;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.middle1 {
+  width: 16%;
+  height: 180px;
+  border-radius: 10%;
+  margin-left: 80px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.middle1 img:hover {
+  transform: scale(1.2);
+  transition: transform ease 0.7s;
+}
+
+.middle-box {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.middle1 img {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.middle1 p {
+  font-size: 20px;
+}
+
+.taxi-end {
+  background-image: linear-gradient(
+      rgba(67, 61, 57, 0.8) 0%,
+      rgba(130, 127, 125, 0.8) 100%
+    ),
+    url(/background.jpeg);
+  width: 100%;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.taxi-end h2 {
+  padding: 90px;
+  color: white;
+}
+
+.end-box {
+  width: 70%;
+  height: 450px;
+  display: flex;
+  margin: auto;
+}
+
+.end1 {
+  width: 28%;
+  height: 430px;
+  border-radius: 10%;
+  margin-left: 50px;
+  margin-top: 1%;
+  color: white;
+}
+
+.end1 img {
+  width: 30%;
+  margin-top: 20px;
+}
+
+.end1 h3 {
+  padding: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(174, 166, 166);
+  display: flex;
+  justify-content: space-around;
+}
+
+.adress {
+  width: 25%;
+  height: 150px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.adress img {
+  width: 10%;
+  margin-top: 10px;
+}
+
+.adress p {
+  font-size: 16px;
+  color: white;
+}
+
+.mail {
+  width: 25%;
+  height: 150px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.mail img {
+  width: 10%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mail img:hover {
+  transform: scale(1.5);
+  transition: transform ease 0.8s;
+}
+
+.mail h3 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+
+.market {
+  width: 25%;
+  height: 150px;
+  margin-top: 40px;
+}
+
+.market img {
+  width: 42%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .center-menu {
+    display: none;
+  }
+
+  .right-menu {
+    display: none;
+  }
+
+  .icon .bi-facebook,
+  .bi-instagram,
+  .bi-twitter {
+    display: none;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .part2 {
+    display: none;
+  }
+
+  .font-header h1 {
+    margin-top: 30px;
+    font-size: 45px;
+  }
+  .font-header img {
+    width: 45%;
+    margin-top: 10px;
+  }
+  .icons {
+    font-size: 100px;
+    margin-top: 30px;
+  }
+
+  .filter {
+    height: 60px;
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .filter ul li {
+    font-size: 9px;
+    margin-top: 10px;
+  }
+  .items {
+    height: 165px;
+  }
+
+  .taxi-tarif-end {
+    height: 120px;
+  }
+
+  .items {
+    padding: 0;
+  }
+
+  .items img {
+    width: 65%;
+  }
+
+  .tarif1 {
+    width: 50%;
+    height: 60px;
+  }
+
+  .tarif1 p {
+    font-size: 10px;
+  }
+  .tarif1 h2 {
+    font-size: 15px;
+  }
+
+  .tarif2 {
+    width: 50%;
+    height: 60px;
+  }
+
+  .tarif2 p {
+    font-size: 10px;
+  }
+  .tarif2 h2 {
+    padding: 13px;
+    font-size: 15px;
+  }
+
+  .tarif3 {
+    width: 50%;
+    height: 60px;
+  }
+
+  .tarif3 p {
+    font-size: 10px;
+  }
+  .tarif3 h2 {
+    padding: 13px;
+    font-size: 15px;
+  }
+
+  .taxi-middle h1 {
+    font-size: 20px;
+  }
+
+  .middle-box {
+    height: 800px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 0;
+  }
+
+  .middle1 {
+    margin-left: 43%;
+  }
+
+  .middle1 img {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .taxi-middle {
+    height: 100%;
+  }
+
+  .taxi-end {
+    height: 100%;
+    height: 450px;
+  }
+  .taxi-end h2 {
+    padding: 50px;
+  }
+  .end-box {
+    width: 90%;
+  }
+
+  .end1 {
+    width: 35%;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+
+  .end1 h3 {
+    font-size: 10px;
+  }
+
+  footer {
+    height: 200px;
+  }
+  .adress {
+    width: 50%;
+    height: 120px;
+    margin-top: 40px;
+  }
+
+  .adress p {
+    margin-left: 8px;
+    font-size: 11px;
+  }
+
+  .mail {
+    width: 50%;
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+  .mail img {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 15%;
+  }
+
+  .market {
+    width: 30%;
+    height: 120px;
+    margin-top: 30px;
+  }
+  .market img {
+    width: 72%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .list-menu {
+    width: 100%;
+    height: 360px;
+  }
+
+  .number1 {
+    margin-top: 1%;
+  }
+
+  .programs {
+    margin-top: 3%;
+  }
+
+  .programs img {
+    margin-left: 5%;
+    width: 35%;
+  }
+
+  .abune {
+    width: 70%;
+    left: 15%;
+    top: 40%;
+  }
+  .subs {
+    width: 50%;
+    height: 50px;
+    border-radius: 6%;
+    border: none;
+    background-color: gold;
+    font-size: 15px;
+    cursor: pointer;
+  }
+}
